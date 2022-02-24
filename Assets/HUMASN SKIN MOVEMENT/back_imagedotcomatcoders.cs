@@ -7,9 +7,11 @@ public class back_imagedotcomatcoders : MonoBehaviour
 {
     public Image start;
     public Sprite bot;
-    public Sprite bot2; 
+    public Sprite bot2;
     public GameObject Puase;
+    public static bool paused;
     public void UNplaused_play() {
+        paused = (false);
         start.sprite = bot;
         Puase.SetActive(false);
         Cursor.lockState = CursorLockMode.Locked;
@@ -28,6 +30,7 @@ public class back_imagedotcomatcoders : MonoBehaviour
             start.sprite = bot2;
             Puase.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
+            paused = (true);
         }
     }
 }
@@ -35,7 +38,6 @@ public class back_imagedotcomatcoders : MonoBehaviour
 
 
 // make inv
-// make weapons
-//finsh menu
+
 // fix jumping
-// currency
+// CURRECY
