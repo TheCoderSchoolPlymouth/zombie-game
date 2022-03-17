@@ -37,7 +37,14 @@ public class back_imagedotcomatcoders : MonoBehaviour
 
 
 
-// make inv
 
-// fix jumping
 // CURRECY
+//building
+//50% to drop gem or coin
+//zombies Follow you anywhere
+//
+//
+//
+//
+//
+//
