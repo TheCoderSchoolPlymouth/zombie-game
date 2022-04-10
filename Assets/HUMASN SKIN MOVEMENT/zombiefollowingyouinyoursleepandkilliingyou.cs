@@ -1,16 +1,21 @@
 
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class zombiefollowingyouinyoursleepandkilliingyou : MonoBehaviour
 {
     public GameObject rlm;
+    public Rigidbody us;
+    public Slider eb4;
     // Start is called before the first frame update
     void Start()
     {
+        eb4= GameObject.Find("health").GetComponent<Slider>();
         rlm = GameObject.Find("HUAMANS");
-        
+        us = gameObject.GetComponent<Rigidbody>(); 
     }
 
     // Update is called once per frame
@@ -22,7 +27,14 @@ public class zombiefollowingyouinyoursleepandkilliingyou : MonoBehaviour
         if (sfd < 50)
         {
             transform.LookAt(rlm.transform);
-            transform.position += transform.forward * .05f;
+            transform.eulerAngles = new Vector3(0f, transform.eulerAngles.y-90, 0f);
+            us.AddForce(transform.right * 100f) ;
+        }
+    }
+    public void OnCollisionEnter(Collision eb3) {
+        if (eb3.gameObject.tag == "Player") {
+            datascriptdotcomma.health -= 5;
+            eb4.value = datascriptdotcomma.health;
         }
     }
 }

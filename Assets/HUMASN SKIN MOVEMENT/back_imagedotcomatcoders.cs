@@ -39,9 +39,9 @@ public class back_imagedotcomatcoders : MonoBehaviour
 
 
 // CURRECY
-//building
+//buildings
 //50% to drop gem or coin
-//zombies Follow you anywhere
+//
 //
 //
 //
