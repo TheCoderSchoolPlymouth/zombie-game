@@ -16,7 +16,7 @@ public class houseadfkljahbuildingvsaiof : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(0) && (DateTime.Now-Lastplace).TotalSeconds>1) {
+        if (Input.GetMouseButton(0) && (DateTime.Now-Lastplace).TotalSeconds>0f) {
             Instantiate(blocks[0], transform.position+(transform.right*-10) + (new Vector3(0,10,0)), Quaternion.identity);
             Lastplace = DateTime.Now;
 
