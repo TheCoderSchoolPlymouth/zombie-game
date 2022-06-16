@@ -14,7 +14,8 @@ public class terriangoingcrazyrocksmorerockandevenmorerocks : MonoBehaviour
     public GameObject ruby;
     public GameObject diamond;
     public GameObject gold;
-
+    public GameObject strawberrymilk;
+    public GameObject burnedpancakes;
     public Dictionary<string, int> bankofamerica = new Dictionary<string, int>();
     // Start is called before the first frame update
     void Start()
@@ -46,7 +47,7 @@ public class terriangoingcrazyrocksmorerockandevenmorerocks : MonoBehaviour
                         }
                         else
                         {
-
+                            Instantiate(burnedpancakes, new Vector3(axis, length - 5, zzzz), Quaternion.identity);
                         }
 
                     }
@@ -58,7 +59,7 @@ public class terriangoingcrazyrocksmorerockandevenmorerocks : MonoBehaviour
                         }
                         else
                         {
-
+                            Instantiate(strawberrymilk, new Vector3(axis, length - 5, zzzz), Quaternion.identity);
                         }
                     }
 
@@ -84,6 +85,8 @@ public class terriangoingcrazyrocksmorerockandevenmorerocks : MonoBehaviour
                         }
                         else if (bankofamerica["ruby"]>0)
                         {
+                            Instantiate(ruby, new Vector3(axis, length - 5, zzzz), Quaternion.identity);
+                            bankofamerica["ruby"]--;
                             impreo = true;
                         }
 
