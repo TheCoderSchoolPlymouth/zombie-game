@@ -16,6 +16,7 @@ public class zombiefollowingyouinyoursleepandkilliingyou : MonoBehaviour
         eb4= GameObject.Find("health").GetComponent<Slider>();
         rlm = GameObject.Find("HUAMANS");
         us = gameObject.GetComponent<Rigidbody>(); 
+
     }
 
     // Update is called once per frame

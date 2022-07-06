@@ -16,16 +16,18 @@ public class terriangoingcrazyrocksmorerockandevenmorerocks : MonoBehaviour
     public GameObject gold;
     public GameObject strawberrymilk;
     public GameObject burnedpancakes;
+    public float offsetX;
+    public float offsetZ;
     public Dictionary<string, int> bankofamerica = new Dictionary<string, int>();
     // Start is called before the first frame update
     void Start()
     {
-        bankofamerica.Add("coal", 150);
-        bankofamerica.Add("diamond", 150);
-        bankofamerica.Add("iron", 150);
-        bankofamerica.Add("gold", 150);
-        bankofamerica.Add("ruby", 150);
-        bankofamerica.Add("tree", 500);
+        bankofamerica.Add("coal", 15);
+        bankofamerica.Add("diamond", 15);
+        bankofamerica.Add("iron", 15);
+        bankofamerica.Add("gold", 15);
+        bankofamerica.Add("ruby", 15);
+        bankofamerica.Add("tree", 50);
         var too = 100;
         var DAVID = bankofamerica.Keys.ToList();
         while (true) {
@@ -39,33 +41,33 @@ public class terriangoingcrazyrocksmorerockandevenmorerocks : MonoBehaviour
                 if (length > 0)
                 {
 
-                    if (axis > 1024)
+                    if (axis > 1025)
                     {
-                        if (zzzz > 1024)
+                        if (zzzz > 1025)
                         {
-                            Instantiate(bacon, new Vector3(axis, length - 5, zzzz), Quaternion.identity);
+                            Instantiate(bacon, new Vector3(axis + offsetX, length - 5, zzzz+offsetZ), Quaternion.identity);
                         }
                         else
                         {
-                            Instantiate(burnedpancakes, new Vector3(axis, length - 5, zzzz), Quaternion.identity);
+                            Instantiate(burnedpancakes, new Vector3(axis + offsetX, length - 5, zzzz + offsetZ), Quaternion.identity);
                         }
 
                     }
                     else
                     {
-                        if (zzzz > 1024)
+                        if (zzzz > 1025)
                         {
-                            Instantiate(ham, new Vector3(axis, length - 5, zzzz), Quaternion.identity);
+                            Instantiate(ham, new Vector3(axis + offsetX, length - 5, zzzz + offsetZ), Quaternion.identity);
                         }
                         else
                         {
-                            Instantiate(strawberrymilk, new Vector3(axis, length - 5, zzzz), Quaternion.identity);
+                            Instantiate(strawberrymilk, new Vector3(axis + offsetX, length - 5, zzzz + offsetZ), Quaternion.identity);
                         }
                     }
 
                     continue;
                 }
-                Instantiate(butter_and_egg, new Vector3(axis, 0f, zzzz), Quaternion.identity);
+                Instantiate(butter_and_egg, new Vector3(axis + offsetX, 0f, zzzz + offsetZ), Quaternion.identity);
 
             }
 
@@ -75,17 +77,17 @@ public class terriangoingcrazyrocksmorerockandevenmorerocks : MonoBehaviour
                 var impreo = false;
                 if (length > 0)
                 {
-                    if (axis > 1024)
+                    if (axis > 1025)
                     {
-                        if (zzzz > 1024&& bankofamerica["gold"] > 0)
+                        if (zzzz > 1025 && bankofamerica["gold"] > 0)
                         {
-                            Instantiate(gold, new Vector3(axis, length - 5, zzzz), Quaternion.identity);
+                            Instantiate(gold, new Vector3(axis + offsetX, length - 5, zzzz + offsetZ), Quaternion.identity);
                             bankofamerica["gold"]--;
                             impreo = true;
                         }
                         else if (bankofamerica["ruby"]>0)
                         {
-                            Instantiate(ruby, new Vector3(axis, length - 5, zzzz), Quaternion.identity);
+                            Instantiate(ruby, new Vector3(axis + offsetX, length - 5, zzzz + offsetZ), Quaternion.identity);
                             bankofamerica["ruby"]--;
                             impreo = true;
                         }
@@ -93,9 +95,9 @@ public class terriangoingcrazyrocksmorerockandevenmorerocks : MonoBehaviour
                     }
                     else
                     {
-                        if (zzzz > 1024&& bankofamerica["diamond"] > 0)
+                        if (zzzz > 1025 && bankofamerica["diamond"] > 0)
                         {
-                            Instantiate(diamond, new Vector3(axis, length - 5, zzzz), Quaternion.identity);
+                            Instantiate(diamond, new Vector3(axis + offsetX, length - 5, zzzz + offsetZ), Quaternion.identity);
                             bankofamerica["diamond"]--;
                             impreo = true;
                         }
@@ -109,13 +111,13 @@ public class terriangoingcrazyrocksmorerockandevenmorerocks : MonoBehaviour
                     if (bankofamerica["coal"] > 0)
                     {
                         bankofamerica["coal"]--;
-                        Instantiate(coal, new Vector3(axis, 0f, zzzz), Quaternion.identity);
+                        Instantiate(coal, new Vector3(axis + offsetX, 0f, zzzz + offsetZ), Quaternion.identity);
                         impreo = true;
                     }
                     else if (bankofamerica["iron"] > 0)
                     {
                         bankofamerica["iron"]--;
-                        Instantiate(iron, new Vector3(axis, 0f, zzzz), Quaternion.identity);
+                        Instantiate(iron, new Vector3(axis + offsetX, 0f, zzzz + offsetZ), Quaternion.identity);
                         impreo = true;
                     }
                     }
