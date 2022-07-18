@@ -22,12 +22,12 @@ public class terriangoingcrazyrocksmorerockandevenmorerocks : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        bankofamerica.Add("coal", 15);
-        bankofamerica.Add("diamond", 15);
-        bankofamerica.Add("iron", 15);
-        bankofamerica.Add("gold", 15);
-        bankofamerica.Add("ruby", 15);
-        bankofamerica.Add("tree", 50);
+        bankofamerica.Add("coal", 50);
+        bankofamerica.Add("diamond", 50);
+        bankofamerica.Add("iron", 50);
+        bankofamerica.Add("gold", 50);
+        bankofamerica.Add("ruby", 50);
+        bankofamerica.Add("tree", 75);
         var too = 100;
         var DAVID = bankofamerica.Keys.ToList();
         while (true) {
@@ -81,13 +81,13 @@ public class terriangoingcrazyrocksmorerockandevenmorerocks : MonoBehaviour
                     {
                         if (zzzz > 1025 && bankofamerica["gold"] > 0)
                         {
-                            Instantiate(gold, new Vector3(axis + offsetX, length - 5, zzzz + offsetZ), Quaternion.identity);
+                            Instantiate(gold, new Vector3(axis + offsetX, length - 2, zzzz + offsetZ), Quaternion.identity);
                             bankofamerica["gold"]--;
                             impreo = true;
                         }
                         else if (bankofamerica["ruby"]>0)
                         {
-                            Instantiate(ruby, new Vector3(axis + offsetX, length - 5, zzzz + offsetZ), Quaternion.identity);
+                            Instantiate(ruby, new Vector3(axis + offsetX, length - 2, zzzz + offsetZ), Quaternion.identity);
                             bankofamerica["ruby"]--;
                             impreo = true;
                         }
@@ -97,7 +97,7 @@ public class terriangoingcrazyrocksmorerockandevenmorerocks : MonoBehaviour
                     {
                         if (zzzz > 1025 && bankofamerica["diamond"] > 0)
                         {
-                            Instantiate(diamond, new Vector3(axis + offsetX, length - 5, zzzz + offsetZ), Quaternion.identity);
+                            Instantiate(diamond, new Vector3(axis + offsetX, length - 2, zzzz + offsetZ), Quaternion.identity);
                             bankofamerica["diamond"]--;
                             impreo = true;
                         }
