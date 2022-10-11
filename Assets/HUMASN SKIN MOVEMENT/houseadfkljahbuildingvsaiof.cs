@@ -6,7 +6,7 @@ public class houseadfkljahbuildingvsaiof : MonoBehaviour
 {
     public GameObject[] blocks;
     public DateTime Lastplace;
-    public item itemscript;
+    
     public hotbartimeotpickanitemtoattackbreakanddrop hotbarscript;
 
     // Start is called before the first frame update
@@ -18,7 +18,7 @@ public class houseadfkljahbuildingvsaiof : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButton(1) && (DateTime.Now - Lastplace).TotalSeconds > 0f)
+        if (Input.GetMouseButton(1) && (DateTime.Now - Lastplace).TotalSeconds > 1f)
         {
             Instantiate(blocks[0], transform.position + (transform.right * -10) + (new Vector3(0, 10, 0)), Quaternion.identity);
             Lastplace = DateTime.Now;
@@ -26,7 +26,7 @@ public class houseadfkljahbuildingvsaiof : MonoBehaviour
 
         }
         else if (Input.GetMouseButton(0)) {
-            gameitem current = hotbarscript.hotburger[itemscript.unomas - 1];
+            
             var invert =Physics.OverlapSphere(transform.position + (transform.right * -20),10f);
             foreach (Collider jnhb in invert) {
                 if (jnhb.transform.tag != "dead") { 

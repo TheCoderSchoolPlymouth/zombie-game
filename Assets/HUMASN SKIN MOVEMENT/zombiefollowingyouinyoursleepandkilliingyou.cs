@@ -1,5 +1,4 @@
 
-
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,11 +9,12 @@ public class zombiefollowingyouinyoursleepandkilliingyou : MonoBehaviour
     public GameObject rlm;
     public Rigidbody us;
     public Slider eb4;
+    public int health = 100;
     // Start is called before the first frame update
     void Start()
     {
         eb4= GameObject.Find("health").GetComponent<Slider>();
-        rlm = GameObject.Find("HUAMANS");
+
         us = gameObject.GetComponent<Rigidbody>(); 
 
     }
@@ -33,9 +33,18 @@ public class zombiefollowingyouinyoursleepandkilliingyou : MonoBehaviour
         }
     }
     public void OnCollisionEnter(Collision eb3) {
-        if (eb3.gameObject.tag == "Player") {
+        if (eb3.gameObject.tag == "Player")
+        {
             datascriptdotcomma.health -= 5;
             eb4.value = datascriptdotcomma.health;
+
+        }
+        else if (eb3.gameObject.tag == "kknife") {
+            health -= 15;
+            if (health <= 0) {
+                Destroy(eb3.gameObject);
+                Destroy(gameObject);
+            }
         }
     }
 }

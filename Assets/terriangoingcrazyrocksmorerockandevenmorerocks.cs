@@ -10,6 +10,7 @@ public class terriangoingcrazyrocksmorerockandevenmorerocks : MonoBehaviour
     public GameObject ham;
     public GameObject bacon;
     public GameObject iron;
+    public GameObject stone;
     public GameObject coal;
     public GameObject ruby;
     public GameObject diamond;
@@ -27,6 +28,7 @@ public class terriangoingcrazyrocksmorerockandevenmorerocks : MonoBehaviour
         bankofamerica.Add("iron", 50);
         bankofamerica.Add("gold", 50);
         bankofamerica.Add("ruby", 50);
+        bankofamerica.Add("stone", 50);
         bankofamerica.Add("tree", 75);
         var too = 100;
         var DAVID = bankofamerica.Keys.ToList();
@@ -85,7 +87,7 @@ public class terriangoingcrazyrocksmorerockandevenmorerocks : MonoBehaviour
                             bankofamerica["gold"]--;
                             impreo = true;
                         }
-                        else if (bankofamerica["ruby"]>0)
+                        else if (bankofamerica["ruby"] > 0)
                         {
                             Instantiate(ruby, new Vector3(axis + offsetX, length - 2, zzzz + offsetZ), Quaternion.identity);
                             bankofamerica["ruby"]--;
@@ -101,11 +103,15 @@ public class terriangoingcrazyrocksmorerockandevenmorerocks : MonoBehaviour
                             bankofamerica["diamond"]--;
                             impreo = true;
                         }
-                        
+                        else if (bankofamerica["iron"] > 0)
+                        {
+                            bankofamerica["iron"]--;
+                            Instantiate(iron, new Vector3(axis + offsetX, length, zzzz + offsetZ), Quaternion.identity);
+                            impreo = true;
+                        }
                     }
-                    
                 }
-                else
+                else 
                 {
 
                     if (bankofamerica["coal"] > 0)
@@ -114,10 +120,10 @@ public class terriangoingcrazyrocksmorerockandevenmorerocks : MonoBehaviour
                         Instantiate(coal, new Vector3(axis + offsetX, 0f, zzzz + offsetZ), Quaternion.identity);
                         impreo = true;
                     }
-                    else if (bankofamerica["iron"] > 0)
+                    else if (bankofamerica["stone"] > 0)
                     {
-                        bankofamerica["iron"]--;
-                        Instantiate(iron, new Vector3(axis + offsetX, 0f, zzzz + offsetZ), Quaternion.identity);
+                        bankofamerica["stone"]--;
+                        Instantiate(stone, new Vector3(axis + offsetX, 0f, zzzz + offsetZ), Quaternion.identity);
                         impreo = true;
                     }
                     }

@@ -6,11 +6,13 @@ TagManager:
   tags:
   - bob
   - dead
+  - kknife
+  - pic
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - ore
   - Water
   - UI
   - 
