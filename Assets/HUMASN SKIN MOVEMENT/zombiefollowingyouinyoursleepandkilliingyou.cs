@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class zombiefollowingyouinyoursleepandkilliingyou : MonoBehaviour
 {
     public GameObject rlm;
+    public GameObject coin;
     public Rigidbody us;
     public Slider eb4;
     public int health = 100;
@@ -39,9 +40,31 @@ public class zombiefollowingyouinyoursleepandkilliingyou : MonoBehaviour
             eb4.value = datascriptdotcomma.health;
 
         }
-        else if (eb3.gameObject.tag == "kknife") {
-            health -= 15;
+        else if (eb3.gameObject.tag.Contains("kknife")) {
+            switch(eb3.gameObject.tag){
+
+                case "goldkknife":
+                    health -= 20;
+                    break;
+                case "irinkknife":
+                    health -= 30;
+                    break;
+                case "diamondkknife":
+                    health -= 50;
+                    break;
+                case "stoenkknife":
+                    health -= 25;
+                    break;
+                case "woodkknife":
+                    health -= 15;
+                    break;
+                case "rubykknife":
+                    health -= 40;
+                    break;
+            }
             if (health <= 0) {
+                var res=Instantiate(coin, transform.position,Quaternion.identity);
+                res.GetComponent<pickupandbendover>().enable=true;
                 Destroy(eb3.gameObject);
                 Destroy(gameObject);
             }

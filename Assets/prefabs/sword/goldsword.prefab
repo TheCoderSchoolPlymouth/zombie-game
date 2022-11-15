@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 3856737717028669945}
   m_Layer: 0
   m_Name: goldsword
-  m_TagString: kknife
+  m_TagString: goldkknife
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

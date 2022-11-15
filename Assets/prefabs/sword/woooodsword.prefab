@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2329295483182469595}
   m_Layer: 0
   m_Name: woooodsword
-  m_TagString: kknife
+  m_TagString: woodkknife
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

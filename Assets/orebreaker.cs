@@ -26,8 +26,32 @@ public class orebreaker : MonoBehaviour
             Destroy(gameObject);
         }
         if (hp < staplehp) {
+            var tag = transform.GetChild(0).gameObject.tag;
             Destroy(transform.GetChild(0).gameObject);
-            hotbartimeotpickanitemtoattackbreakanddrop.inter.requestitem("stone", 1);
+
+            switch (tag) {
+                case "stoen":
+                    hotbartimeotpickanitemtoattackbreakanddrop.inter.requestitem("stone", 1);
+                    break;
+                case "coal":
+                    hotbartimeotpickanitemtoattackbreakanddrop.inter.requestitem("coal", 1);
+                    break;
+                case "dia":
+                    hotbartimeotpickanitemtoattackbreakanddrop.inter.requestitem("diamond", 1);
+                    break;
+                case "gold":
+                    hotbartimeotpickanitemtoattackbreakanddrop.inter.requestitem("gold", 1);
+                    break;
+                case "irin":
+                    hotbartimeotpickanitemtoattackbreakanddrop.inter.requestitem("irin", 1);
+                    break;
+                case "ruby":
+                    hotbartimeotpickanitemtoattackbreakanddrop.inter.requestitem("jacob", 1);
+                    break;
+
+
+
+            }
         }
 
 

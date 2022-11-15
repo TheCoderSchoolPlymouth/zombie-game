@@ -8,6 +8,36 @@ TagManager:
   - dead
   - kknife
   - pic
+  - axe
+  - stoen
+  - dia
+  - ruby
+  - gold
+  - coal
+  - irin
+  - oak
+  - dark
+  - bird
+  - blood
+  - deathlog
+  - woodkknife
+  - goldkknife
+  - stoenkknife
+  - diamondkknife
+  - rubykknife
+  - rubypic
+  - diamondpic
+  - stonepic
+  - irinpic
+  - woodpic
+  - irinkknife
+  - goldpic
+  - goldaxe
+  - stoneaxe
+  - rubyaxe
+  - diamondaxe
+  - irinaxe
+  - woodaxe
   layers:
   - Default
   - TransparentFX
@@ -15,7 +45,7 @@ TagManager:
   - ore
   - Water
   - UI
-  - 
+  - tree
   - 
   - 
   - 

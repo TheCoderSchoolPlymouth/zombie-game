@@ -18,7 +18,7 @@ public class deathtothehead : MonoBehaviour
         try
         {
             knifee = transform.GetChild(0).gameObject;
-                    if (knifee.tag == "kknife") {
+                    if (knifee.tag.Contains("kknife")) {
                         knifee.transform.position = new Vector3(gameObject.transform.position.x, gameObject.transform.position.y - 1, gameObject.transform.position.z);
                         if (Input.GetKeyDown(KeyCode.Q))
                         {

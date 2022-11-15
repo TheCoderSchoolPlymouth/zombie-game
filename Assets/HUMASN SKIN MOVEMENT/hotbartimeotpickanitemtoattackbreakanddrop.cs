@@ -44,16 +44,21 @@ public class hotbartimeotpickanitemtoattackbreakanddrop : MonoBehaviour
         possiblieitems.Add(new gameitem() { namesisdavid = "goldaxe", maximunofmystack = 1, looksniceitem = gos[18],handitem = handitems[18] });
         possiblieitems.Add(new gameitem() { namesisdavid = "jacobaxe", maximunofmystack = 1, looksniceitem = gos[19],handitem = handitems[19] });
         possiblieitems.Add(new gameitem() { namesisdavid = "shinyaxe", maximunofmystack = 1, looksniceitem = gos[20],handitem = handitems[20] });
-        requestitem("woodsword", 1);
-        requestitem("woodpic", 1);
-        requestitem("diamond", 1);
-        requestitem("jacob", 1);
-        requestitem("axe", 1);
-        requestitem("rockaxe", 1);
-        requestitem("irinaxe", 1);
-        requestitem("goldaxe", 1);
-        requestitem("jacobaxe", 1);
+        possiblieitems.Add(new gameitem() { namesisdavid = "coal", maximunofmystack = 999, looksniceitem = gos[21],handitem = handitems[21] });
+        possiblieitems.Add(new gameitem() { namesisdavid = "irin", maximunofmystack = 999, looksniceitem = gos[22],handitem = handitems[22] });
+        possiblieitems.Add(new gameitem() { namesisdavid = "gold", maximunofmystack = 999, looksniceitem = gos[23],handitem = handitems[23] });
+        possiblieitems.Add(new gameitem() { namesisdavid = "oak", maximunofmystack = 999, looksniceitem = gos[24],handitem = handitems[24] });
+        possiblieitems.Add(new gameitem() { namesisdavid = "dark", maximunofmystack = 999, looksniceitem = gos[25],handitem = handitems[25] });
+        possiblieitems.Add(new gameitem() { namesisdavid = "bird", maximunofmystack = 999, looksniceitem = gos[26],handitem = handitems[26] });
+        possiblieitems.Add(new gameitem() { namesisdavid = "blood", maximunofmystack = 999, looksniceitem = gos[27],handitem = handitems[27] });
+        possiblieitems.Add(new gameitem() { namesisdavid = "deathlog", maximunofmystack = 999, looksniceitem = gos[28],handitem = handitems[28] });
+        possiblieitems.Add(new gameitem() { namesisdavid = "goldcoin", maximunofmystack = 999, looksniceitem = gos[29],handitem = handitems[29] });
+        requestitem("diamondssword", 1);
+        requestitem("diamondayspic", 1);
         requestitem("shinyaxe", 1);
+        
+
+
 
         inter = this;
 
@@ -83,17 +88,25 @@ public class hotbartimeotpickanitemtoattackbreakanddrop : MonoBehaviour
 
         }
         for (int i = 0; i < 10; i++) {
-             if (hotburger[i] != null) {
+            if (hotburger[i] != null)
+            {
                 var image = slots[i].transform.GetChild(0);
+                var text = slots[i].transform.GetChild(1);
                 image.GetComponent<Image>().sprite = hotburger[i].looksniceitem;
-             }
-             
+               
+                text.GetComponent<Text>().text = hotburger[i].stackofmyblock.ToString();
+            }
+            else {
+                var text = slots[i].transform.GetChild(1);
+                text.GetComponent<Text>().text = "0";
+            }
              } 
         Debug.Log(hotburger[0]);
     }
     public void requestitem(string name,int num) {
 
         var res = possiblieitems.Find(k => k.namesisdavid == name);
+        res.stackofmyblock = num;
         if (res != null) {
             addmeti(res);
         }

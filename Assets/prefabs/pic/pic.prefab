@@ -1135,7 +1135,7 @@ GameObject:
   - component: {fileID: 3207872804601430334}
   m_Layer: 0
   m_Name: pic
-  m_TagString: pic
+  m_TagString: rubypic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

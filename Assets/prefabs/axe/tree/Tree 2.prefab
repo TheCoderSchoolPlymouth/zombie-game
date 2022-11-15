@@ -12,9 +12,11 @@ GameObject:
   - component: {fileID: 2558361102389053301}
   - component: {fileID: 5358199978692192016}
   - component: {fileID: 8548021826171675905}
-  m_Layer: 0
+  - component: {fileID: -5789735188206021386}
+  - component: {fileID: -1267749190284066298}
+  m_Layer: 6
   m_Name: Tree 2
-  m_TagString: Untagged
+  m_TagString: dark
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 5546242769194384973}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -92,6 +94,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-5789735188206021386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5546242769194384973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83deb144922bda14186b55f398ccd73e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 200
+  maxhp: 0
+--- !u!65 &-1267749190284066298
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5546242769194384973}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: -2.1, y: 13.4, z: 2.5}
+  m_Center: {x: 0.57544804, y: 6.548407, z: -0.17272449}
 --- !u!43 &-1333550410608818021
 Mesh:
   m_ObjectHideFlags: 0
@@ -286,19 +315,19 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpSpecMap:
-        m_Texture: {fileID: 2800000, guid: bf664de7e58c5b94598981fbf0e3f08f, type: 3}
+        m_Texture: {fileID: 2800000, guid: d0982ad0b4fe0464e80ded26c0653acd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 044181425328c7e49a91ddf46c3c9f60, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5d8509a8e060b6b4daa576bba80ec1f8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ShadowTex:
-        m_Texture: {fileID: 2800000, guid: b9b21158ca1c5d24f9a755fc9688cc9a, type: 3}
+        m_Texture: {fileID: 2800000, guid: de61de7d1a8b5cf4984cc37cd5886a95, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TranslucencyMap:
-        m_Texture: {fileID: 2800000, guid: ed6a92ad98e57d24291bf5bb9623053b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9232652fbbfece048bdc558f9f9dcbc4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
@@ -333,15 +362,15 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpSpecMap:
-        m_Texture: {fileID: 2800000, guid: bf664de7e58c5b94598981fbf0e3f08f, type: 3}
+        m_Texture: {fileID: 2800000, guid: d0982ad0b4fe0464e80ded26c0653acd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 044181425328c7e49a91ddf46c3c9f60, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5d8509a8e060b6b4daa576bba80ec1f8, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TranslucencyMap:
-        m_Texture: {fileID: 2800000, guid: ed6a92ad98e57d24291bf5bb9623053b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 9232652fbbfece048bdc558f9f9dcbc4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:

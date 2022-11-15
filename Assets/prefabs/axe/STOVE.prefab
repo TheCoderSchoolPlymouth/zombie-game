@@ -1099,7 +1099,7 @@ GameObject:
   - component: {fileID: 136931895311074500}
   m_Layer: 0
   m_Name: STOVE
-  m_TagString: Untagged
+  m_TagString: diamondaxe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

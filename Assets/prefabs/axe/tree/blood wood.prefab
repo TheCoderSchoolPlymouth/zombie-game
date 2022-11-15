@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 9046288275443098967}
   - component: {fileID: 1468105632407426229}
   - component: {fileID: 8304277275521945730}
-  m_Layer: 0
+  - component: {fileID: 411958164322877468}
+  m_Layer: 6
   m_Name: Tree 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,6 +93,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!65 &411958164322877468
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1387214126235263725}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.2, y: 13.096814, z: 2.01}
+  m_Center: {x: 0.57544804, y: 6.548407, z: -0.17272449}
 --- !u!1 &5905886860097234582
 GameObject:
   m_ObjectHideFlags: 0
@@ -101,9 +115,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8468276264862812975}
-  m_Layer: 0
+  - component: {fileID: -7580331398132261070}
+  m_Layer: 6
   m_Name: blood wood
-  m_TagString: Untagged
+  m_TagString: blood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -123,3 +138,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-7580331398132261070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5905886860097234582}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83deb144922bda14186b55f398ccd73e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 345
+  maxhp: 0

@@ -1449,7 +1449,7 @@ GameObject:
   - component: {fileID: 4950447650558932025}
   m_Layer: 0
   m_Name: golden pic
-  m_TagString: pic
+  m_TagString: goldpic
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

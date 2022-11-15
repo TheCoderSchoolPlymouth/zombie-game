@@ -1099,7 +1099,7 @@ GameObject:
   - component: {fileID: 72459759882288730}
   m_Layer: 0
   m_Name: DOVE
-  m_TagString: Untagged
+  m_TagString: stoneaxe
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

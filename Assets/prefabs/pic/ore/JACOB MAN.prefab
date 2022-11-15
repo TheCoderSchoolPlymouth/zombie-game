@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3919108721258408409}
   m_Layer: 0
   m_Name: Cube (7)
-  m_TagString: Untagged
+  m_TagString: ruby
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,7 +109,7 @@ GameObject:
   - component: {fileID: 8390201907899819523}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (11)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -204,7 +204,7 @@ GameObject:
   - component: {fileID: 3203148992831778575}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (1)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -299,7 +299,7 @@ GameObject:
   - component: {fileID: 7420194765061472380}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (6)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -394,7 +394,7 @@ GameObject:
   - component: {fileID: 4830127705823785994}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (15)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -489,7 +489,7 @@ GameObject:
   - component: {fileID: 722551629203706315}
   m_Layer: 0
   m_Name: Cube (5)
-  m_TagString: Untagged
+  m_TagString: ruby
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -584,7 +584,7 @@ GameObject:
   - component: {fileID: 94573016130025427}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -679,7 +679,7 @@ GameObject:
   - component: {fileID: 2089823417428344314}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (2)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -774,7 +774,7 @@ GameObject:
   - component: {fileID: 9172152561648271807}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (20)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -869,7 +869,7 @@ GameObject:
   - component: {fileID: 8221813256088827884}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (17)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -964,7 +964,7 @@ GameObject:
   - component: {fileID: 4419198070046731962}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (5)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1059,7 +1059,7 @@ GameObject:
   - component: {fileID: 1260211150798185162}
   m_Layer: 0
   m_Name: Cube (13)
-  m_TagString: Untagged
+  m_TagString: ruby
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1154,7 +1154,7 @@ GameObject:
   - component: {fileID: 6954906865037921244}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (14)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1249,7 +1249,7 @@ GameObject:
   - component: {fileID: 296311656270692710}
   m_Layer: 0
   m_Name: Cube (6)
-  m_TagString: Untagged
+  m_TagString: ruby
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1344,7 +1344,7 @@ GameObject:
   - component: {fileID: 225720654720026759}
   m_Layer: 0
   m_Name: Cube (15)
-  m_TagString: Untagged
+  m_TagString: ruby
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1439,7 +1439,7 @@ GameObject:
   - component: {fileID: 580319321236854547}
   m_Layer: 0
   m_Name: Cube (14)
-  m_TagString: Untagged
+  m_TagString: ruby
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1534,7 +1534,7 @@ GameObject:
   - component: {fileID: 3244181487427266764}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (4)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1629,7 +1629,7 @@ GameObject:
   - component: {fileID: 2210911527245698266}
   m_Layer: 0
   m_Name: Cube (11)
-  m_TagString: Untagged
+  m_TagString: ruby
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1724,7 +1724,7 @@ GameObject:
   - component: {fileID: 2379801512480479673}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: ruby
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1819,7 +1819,7 @@ GameObject:
   - component: {fileID: 3509295898536634447}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (16)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1914,7 +1914,7 @@ GameObject:
   - component: {fileID: 8729426405553690713}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (8)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2009,7 +2009,7 @@ GameObject:
   - component: {fileID: 85255356000773439}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: ruby
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2104,7 +2104,7 @@ GameObject:
   - component: {fileID: 8235211593347061714}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (10)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2199,7 +2199,7 @@ GameObject:
   - component: {fileID: 3287025129425718064}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (18)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2294,7 +2294,7 @@ GameObject:
   - component: {fileID: 5807529993739526032}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (12)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2389,7 +2389,7 @@ GameObject:
   - component: {fileID: 3480853477642050636}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (13)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2484,7 +2484,7 @@ GameObject:
   - component: {fileID: 5103387956279449334}
   m_Layer: 0
   m_Name: Cube (8)
-  m_TagString: Untagged
+  m_TagString: ruby
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2579,7 +2579,7 @@ GameObject:
   - component: {fileID: 710494240034406517}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (9)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2674,7 +2674,7 @@ GameObject:
   - component: {fileID: 3848544259597902172}
   m_Layer: 0
   m_Name: Cube (10)
-  m_TagString: Untagged
+  m_TagString: ruby
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2769,7 +2769,7 @@ GameObject:
   - component: {fileID: 1345766087446613496}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: ruby
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2864,7 +2864,7 @@ GameObject:
   - component: {fileID: 3812866794468669244}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (3)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3026,7 +3026,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d258ad89d09003443956c1097de182c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 400
+  hp: 500
   numnodes: 0
   maxhp: 0
 --- !u!136 &5365655628190371546
@@ -3057,7 +3057,7 @@ GameObject:
   - component: {fileID: 5437366971233922083}
   m_Layer: 0
   m_Name: Cube (12)
-  m_TagString: Untagged
+  m_TagString: ruby
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3152,7 +3152,7 @@ GameObject:
   - component: {fileID: 5823794291850644952}
   m_Layer: 0
   m_Name: Cube (9)
-  m_TagString: Untagged
+  m_TagString: ruby
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3247,7 +3247,7 @@ GameObject:
   - component: {fileID: 3998276613190614093}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (7)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3342,7 +3342,7 @@ GameObject:
   - component: {fileID: 8878768062308933156}
   m_Layer: 0
   m_Name: SphereSphereSphereSphereSphereSphereSphereSphereSphereSphere (19)
-  m_TagString: Untagged
+  m_TagString: stoen
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3437,7 +3437,7 @@ GameObject:
   - component: {fileID: 1972177193469734754}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: ruby
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3532,7 +3532,7 @@ GameObject:
   - component: {fileID: 2527702990367559614}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: ruby
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
