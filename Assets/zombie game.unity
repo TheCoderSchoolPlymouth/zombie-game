@@ -1726,6 +1726,7 @@ GameObject:
   - component: {fileID: 379872299}
   - component: {fileID: 379872298}
   - component: {fileID: 379872301}
+  - component: {fileID: 379872302}
   m_Layer: 0
   m_Name: Terrain_(-2049.0, 0.0, 0.0)
   m_TagString: dead
@@ -1817,6 +1818,25 @@ MonoBehaviour:
   burnedpancakes: {fileID: 4129455820933335186, guid: 6f96c72c54441624c801cf1cbae46b49, type: 3}
   offsetX: 0
   offsetZ: 2049
+--- !u!114 &379872302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379872297}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98365ef5be8d7444f8dce9558fbfbd9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teria: {fileID: 379872299}
+  minitown:
+  - {fileID: 522121990234319555, guid: b5b3cdf93531f944985a8644b3457d6c, type: 3}
+  - {fileID: 4963342819102770081, guid: 52caf3343cef3c942bea4e8cc0e6e209, type: 3}
+  - {fileID: 4290742668990333289, guid: e0f607780611be34ca13031cc7eeb0e9, type: 3}
+  numhouse: 3
+  numtowns: 10
 --- !u!1 &381194030
 GameObject:
   m_ObjectHideFlags: 0
@@ -2125,7 +2145,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh17274
+  m_Name: pb_Mesh17278
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -2372,6 +2392,7 @@ GameObject:
   - component: {fileID: 465025389}
   - component: {fileID: 465025388}
   - component: {fileID: 465025391}
+  - component: {fileID: 465025392}
   m_Layer: 0
   m_Name: Terrain_(-2049.0, 0.0, 2049.0)
   m_TagString: dead
@@ -2463,6 +2484,25 @@ MonoBehaviour:
   burnedpancakes: {fileID: 4129455820933335186, guid: 6f96c72c54441624c801cf1cbae46b49, type: 3}
   offsetX: 0
   offsetZ: 4098
+--- !u!114 &465025392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 465025387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98365ef5be8d7444f8dce9558fbfbd9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teria: {fileID: 465025389}
+  minitown:
+  - {fileID: 522121990234319555, guid: b5b3cdf93531f944985a8644b3457d6c, type: 3}
+  - {fileID: 4963342819102770081, guid: 52caf3343cef3c942bea4e8cc0e6e209, type: 3}
+  - {fileID: 4290742668990333289, guid: e0f607780611be34ca13031cc7eeb0e9, type: 3}
+  numhouse: 3
+  numtowns: 10
 --- !u!1 &472194996
 GameObject:
   m_ObjectHideFlags: 0
@@ -2475,6 +2515,7 @@ GameObject:
   - component: {fileID: 472194998}
   - component: {fileID: 472194997}
   - component: {fileID: 472195000}
+  - component: {fileID: 472195001}
   m_Layer: 0
   m_Name: Terrain_(0.0, 0.0, -2049.0)
   m_TagString: dead
@@ -2566,6 +2607,25 @@ MonoBehaviour:
   burnedpancakes: {fileID: 4129455820933335186, guid: 6f96c72c54441624c801cf1cbae46b49, type: 3}
   offsetX: 2049
   offsetZ: 0
+--- !u!114 &472195001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 472194996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98365ef5be8d7444f8dce9558fbfbd9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teria: {fileID: 472194998}
+  minitown:
+  - {fileID: 522121990234319555, guid: b5b3cdf93531f944985a8644b3457d6c, type: 3}
+  - {fileID: 4963342819102770081, guid: 52caf3343cef3c942bea4e8cc0e6e209, type: 3}
+  - {fileID: 4290742668990333289, guid: e0f607780611be34ca13031cc7eeb0e9, type: 3}
+  numhouse: 3
+  numtowns: 10
 --- !u!1 &476366681
 GameObject:
   m_ObjectHideFlags: 0
@@ -3172,7 +3232,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1388
+  m_Name: pb_Mesh-1272
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -4379,6 +4439,7 @@ GameObject:
   - component: {fileID: 863939750}
   - component: {fileID: 863939749}
   - component: {fileID: 863939752}
+  - component: {fileID: 863939753}
   m_Layer: 0
   m_Name: Terrain_(2049.0, 0.0, 2049.0)
   m_TagString: dead
@@ -4470,6 +4531,25 @@ MonoBehaviour:
   burnedpancakes: {fileID: 4129455820933335186, guid: 6f96c72c54441624c801cf1cbae46b49, type: 3}
   offsetX: 4098
   offsetZ: 4098
+--- !u!114 &863939753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 863939748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98365ef5be8d7444f8dce9558fbfbd9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teria: {fileID: 863939750}
+  minitown:
+  - {fileID: 522121990234319555, guid: b5b3cdf93531f944985a8644b3457d6c, type: 3}
+  - {fileID: 4963342819102770081, guid: 52caf3343cef3c942bea4e8cc0e6e209, type: 3}
+  - {fileID: 4290742668990333289, guid: e0f607780611be34ca13031cc7eeb0e9, type: 3}
+  numhouse: 3
+  numtowns: 10
 --- !u!1 &872065044
 GameObject:
   m_ObjectHideFlags: 0
@@ -4703,7 +4783,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3240
+  m_Name: pb_Mesh-3124
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -5934,7 +6014,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-3252
+  m_Name: pb_Mesh-3136
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -6109,6 +6189,7 @@ GameObject:
   - component: {fileID: 1098365864}
   - component: {fileID: 1098365863}
   - component: {fileID: 1098365862}
+  - component: {fileID: 1098365866}
   m_Layer: 0
   m_Name: Terrain (1)
   m_TagString: dead
@@ -6200,6 +6281,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1098365866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098365861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98365ef5be8d7444f8dce9558fbfbd9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teria: {fileID: 1098365864}
+  minitown:
+  - {fileID: 522121990234319555, guid: b5b3cdf93531f944985a8644b3457d6c, type: 3}
+  - {fileID: 4963342819102770081, guid: 52caf3343cef3c942bea4e8cc0e6e209, type: 3}
+  - {fileID: 4290742668990333289, guid: e0f607780611be34ca13031cc7eeb0e9, type: 3}
+  numhouse: 3
+  numtowns: 10
 --- !u!1 &1115306225
 GameObject:
   m_ObjectHideFlags: 0
@@ -7159,7 +7259,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2196
+  m_Name: pb_Mesh-2080
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -7329,6 +7429,7 @@ GameObject:
   - component: {fileID: 1310504974}
   - component: {fileID: 1310504973}
   - component: {fileID: 1310504976}
+  - component: {fileID: 1310504977}
   m_Layer: 0
   m_Name: Terrain_(2049.0, 0.0, 0.0)
   m_TagString: dead
@@ -7420,6 +7521,25 @@ MonoBehaviour:
   burnedpancakes: {fileID: 4129455820933335186, guid: 6f96c72c54441624c801cf1cbae46b49, type: 3}
   offsetX: 4098
   offsetZ: 2049
+--- !u!114 &1310504977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310504972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98365ef5be8d7444f8dce9558fbfbd9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teria: {fileID: 1310504974}
+  minitown:
+  - {fileID: 522121990234319555, guid: b5b3cdf93531f944985a8644b3457d6c, type: 3}
+  - {fileID: 4963342819102770081, guid: 52caf3343cef3c942bea4e8cc0e6e209, type: 3}
+  - {fileID: 4290742668990333289, guid: e0f607780611be34ca13031cc7eeb0e9, type: 3}
+  numhouse: 3
+  numtowns: 10
 --- !u!1 &1316152335
 GameObject:
   m_ObjectHideFlags: 0
@@ -7432,6 +7552,7 @@ GameObject:
   - component: {fileID: 1316152337}
   - component: {fileID: 1316152336}
   - component: {fileID: 1316152339}
+  - component: {fileID: 1316152340}
   m_Layer: 0
   m_Name: Terrain_(-2049.0, 0.0, -2049.0)
   m_TagString: dead
@@ -7523,6 +7644,25 @@ MonoBehaviour:
   burnedpancakes: {fileID: 4129455820933335186, guid: 6f96c72c54441624c801cf1cbae46b49, type: 3}
   offsetX: 0
   offsetZ: 0
+--- !u!114 &1316152340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316152335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98365ef5be8d7444f8dce9558fbfbd9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teria: {fileID: 1316152337}
+  minitown:
+  - {fileID: 522121990234319555, guid: b5b3cdf93531f944985a8644b3457d6c, type: 3}
+  - {fileID: 4963342819102770081, guid: 52caf3343cef3c942bea4e8cc0e6e209, type: 3}
+  - {fileID: 4290742668990333289, guid: e0f607780611be34ca13031cc7eeb0e9, type: 3}
+  numhouse: 3
+  numtowns: 10
 --- !u!1001 &1325620233
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8267,7 +8407,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-2208
+  m_Name: pb_Mesh-2092
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -9172,6 +9312,7 @@ GameObject:
   - component: {fileID: 1686647042}
   - component: {fileID: 1686647041}
   - component: {fileID: 1686647044}
+  - component: {fileID: 1686647045}
   m_Layer: 0
   m_Name: Terrain_(0.0, 0.0, 2049.0)
   m_TagString: dead
@@ -9263,6 +9404,25 @@ MonoBehaviour:
   burnedpancakes: {fileID: 4129455820933335186, guid: 6f96c72c54441624c801cf1cbae46b49, type: 3}
   offsetX: 2049
   offsetZ: 4098
+--- !u!114 &1686647045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1686647040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98365ef5be8d7444f8dce9558fbfbd9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teria: {fileID: 1686647042}
+  minitown:
+  - {fileID: 522121990234319555, guid: b5b3cdf93531f944985a8644b3457d6c, type: 3}
+  - {fileID: 4963342819102770081, guid: 52caf3343cef3c942bea4e8cc0e6e209, type: 3}
+  - {fileID: 4290742668990333289, guid: e0f607780611be34ca13031cc7eeb0e9, type: 3}
+  numhouse: 3
+  numtowns: 10
 --- !u!1 &1690123126
 GameObject:
   m_ObjectHideFlags: 0
@@ -10747,6 +10907,7 @@ GameObject:
   - component: {fileID: 1887187639}
   - component: {fileID: 1887187638}
   - component: {fileID: 1887187641}
+  - component: {fileID: 1887187642}
   m_Layer: 0
   m_Name: Terrain_(2049.0, 0.0, -2049.0)
   m_TagString: dead
@@ -10838,6 +10999,25 @@ MonoBehaviour:
   burnedpancakes: {fileID: 4129455820933335186, guid: 6f96c72c54441624c801cf1cbae46b49, type: 3}
   offsetX: 4098
   offsetZ: 0
+--- !u!114 &1887187642
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887187637}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98365ef5be8d7444f8dce9558fbfbd9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  teria: {fileID: 1887187639}
+  minitown:
+  - {fileID: 522121990234319555, guid: b5b3cdf93531f944985a8644b3457d6c, type: 3}
+  - {fileID: 4963342819102770081, guid: 52caf3343cef3c942bea4e8cc0e6e209, type: 3}
+  - {fileID: 4290742668990333289, guid: e0f607780611be34ca13031cc7eeb0e9, type: 3}
+  numhouse: 3
+  numtowns: 10
 --- !u!1 &1914155204
 GameObject:
   m_ObjectHideFlags: 0
@@ -10919,7 +11099,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh18094
+  m_Name: pb_Mesh18098
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
