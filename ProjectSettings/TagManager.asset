@@ -38,6 +38,8 @@ TagManager:
   - diamondaxe
   - irinaxe
   - woodaxe
+  - irinknife
+  - house
   layers:
   - Default
   - TransparentFX
