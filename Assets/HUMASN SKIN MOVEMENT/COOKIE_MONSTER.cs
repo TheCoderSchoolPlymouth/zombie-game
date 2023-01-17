@@ -83,6 +83,9 @@ public class COOKIE_MONSTER : MonoBehaviour
                 merunningoround.value = nomoretimeleft;
             }
             gameObject.GetComponent<Rigidbody>().AddForce(f);
+            if (Input.GetMouseButton(1)){
+                Instantiate(hotbartimeotpickanitemtoattackbreakanddrop.inter.handitems[hotbartimeotpickanitemtoattackbreakanddrop.inter.prevunosmass]);
+            }
         }
        
     }
