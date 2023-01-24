@@ -14,6 +14,7 @@ public class crafing : MonoBehaviour
 {
     public GameObject player;
     public Canvas canvas;
+    public bool davidiswrong;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,9 +27,16 @@ public class crafing : MonoBehaviour
     void Update()
     {
         var Distance=Vector3.Distance(gameObject.transform.position,player.transform.position);
-        if (Distance<3550){
+        if (Distance<15){
             canvas.enabled=true;
-
+            davidiswrong=true;
+            // LINE ABOVE IS TRUE 
+            // SIGNED:David R
         }
+       else if (davidiswrong==true){
+            canvas.enabled=false;
+            davidiswrong=false;
+
+       }
     }
 }
