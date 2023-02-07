@@ -38,10 +38,7 @@ public class back_imagedotcomatcoders : MonoBehaviour
 
 
 
-// CURRECY
-//buildings
-//50% to drop gem or coin
-//
+// 
 //
 //
 //

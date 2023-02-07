@@ -11,11 +11,12 @@ public class gameitem {
 }
 public class hotbartimeotpickanitemtoattackbreakanddrop : MonoBehaviour
 {
-    public gameitem[] hotburger = new gameitem[10];
+    public static gameitem[] hotburger = new gameitem[10];
     public GameObject inv;
     public List<gameitem> possiblieitems = new List<gameitem>();
     public Sprite[] gos;
     public GameObject[] handitems;
+    public static GameObject[] globalslots;
     public GameObject[] slots;
     public int prevunosmass;
     public GameObject hand;
@@ -23,6 +24,7 @@ public class hotbartimeotpickanitemtoattackbreakanddrop : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        globalslots=slots;
         possiblieitems.Add(new gameitem() { namesisdavid = "woodsword", maximunofmystack = 1, looksniceitem = gos[0],handitem=handitems[0] });
         possiblieitems.Add(new gameitem() { namesisdavid = "stonesword", maximunofmystack = 1, looksniceitem = gos[1], handitem = handitems[1] });
         possiblieitems.Add(new gameitem() { namesisdavid = "irinsword", maximunofmystack = 1, looksniceitem = gos[2],handitem = handitems[2] });
@@ -85,6 +87,13 @@ public class hotbartimeotpickanitemtoattackbreakanddrop : MonoBehaviour
         {
             
             inv.SetActive(!inv.activeInHierarchy);
+            if(inv.activeInHierarchy==true){
+                Cursor.lockState = CursorLockMode.None;
+            }
+            else {
+                Cursor.lockState = CursorLockMode.Locked;
+            }
+
 
         }
         for (int i = 0; i < 10; i++) {
