@@ -58,6 +58,8 @@ public class hotbartimeotpickanitemtoattackbreakanddrop : MonoBehaviour
         requestitem("diamondssword", 1);
         requestitem("diamondayspic", 1);
         requestitem("shinyaxe", 1);
+        requestitem("goldcoin",999);
+        requestitem("stone",999);
         
 
 

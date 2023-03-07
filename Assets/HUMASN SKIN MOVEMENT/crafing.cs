@@ -36,9 +36,10 @@ public class crafing : MonoBehaviour
             back_imagedotcomatcoders.paused=true;
             canvas.enabled=true;
             davidiswrong=true;
-            can=true;
             // LINE ABOVE IS TRUE 
             // SIGNED:David R
+            can=true;
+
             Cursor.lockState = CursorLockMode.None;
 
         }

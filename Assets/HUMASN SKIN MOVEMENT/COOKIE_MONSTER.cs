@@ -71,7 +71,7 @@ public class COOKIE_MONSTER : MonoBehaviour
             }
             if (wheat && Input.GetKey(KeyCode.LeftShift) && nomoretimeleft > 0)
             {
-                f *= 3;
+                f *= 22;
                 nomoretimeleft -= Time.deltaTime;
                 merunningoround.value = nomoretimeleft;
             }
